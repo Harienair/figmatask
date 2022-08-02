@@ -3392,7 +3392,7 @@ left: 65.00%;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
     .box-main{
         position: absolute;
         top: 150px;
