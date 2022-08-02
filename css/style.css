@@ -3472,17 +3472,17 @@ left: 65.00%;
     }
     .container-card3{
         position: absolute;
-        top: 2900px;
+        top: 2900px; 
         left: 20px;
     }
 }    
 @media screen and (max-width: 500px){
     .box-main .text4{
-        width: 200px;
+        width: 220px;
         height: 36px;
         }
         .box-main .text7{   
-    width: 168px;
+    width: 178px;
     height: 36px;
     }
     .box-main .text5{
