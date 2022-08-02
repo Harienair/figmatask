@@ -3399,33 +3399,6 @@ left: 65.00%;
         left: 100px;
         width: 300px;
     }
-
-        .box-main .text6{
-        position: absolute;
-        top: 45.0% ;
-        left: 74.00%;
-        }
-        .box-main .text8{
-            position: absolute;
-            top:53.00% ;
-            left: 64.00%;
-        }
-        .box-main .text9{
-            position: absolute;
-            top:60.0% ;
-            left: 64.00%;
-        }
-        .box-main .text11{
-            position: absolute;
-            top:70.50% ;
-            left: 52.50%;
-        } 
-
-        .box-main .text13{
-            position: absolute;
-            top:85.0% ;
-            left: 68.50%;
-        }
     .card-1{
         position: absolute;
         top: 580px;
@@ -3476,18 +3449,3 @@ left: 65.00%;
         left: 20px;
     }
 }    
-@media screen and (max-width: 500px){
-    .box-main .text4{
-        width: 220px;
-        height: 36px;
-        }
-        .box-main .text7{   
-    width: 178px;
-    height: 36px;
-    }
-    .box-main .text5{
-        position: absolute;
-        top: 37.50%;
-        left: 73.00%;
-        }
-}
