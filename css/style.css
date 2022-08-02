@@ -3392,13 +3392,13 @@ left: 65.00%;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .box-main{
         position: absolute;
         top: 150px;
         left: 100px;
         width: 300px;
-    }
+    } 
     .card-1{
         position: absolute;
         top: 580px;
