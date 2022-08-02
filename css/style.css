@@ -8,12 +8,18 @@ justify-content: center;
 align-items: center;
 padding: 15px 25px;
 position: absolute;
-width: 1365px;
+width: 1280px;
 height: 105px;
 left: 0px;
 top: 0px;
 background: #2E333A;
 box-shadow: -6.22302px -6.22302px 18.6691px #3B4451, 6.22302px 6.22302px 18.6691px #000000;
+position: fixed;
+z-index: 3;
+}
+.navbar-toggler{
+    position: absolute;
+    right: 100px;
 }
 .cmpny-logo{
     position: absolute;
@@ -36,8 +42,8 @@ flex: none;
 order: 1;
 flex-grow: 0;
 position: relative;
-top: 30px;
-right: 100px;
+top: 20px;
+right: 120px;
 }
 .search-in{
    width: 300px;
@@ -130,7 +136,7 @@ transform: rotate(-50deg);
 }
 .nav-img4{
     position: absolute;
-    left: 86.73%;
+    left: 85.9%;
     right: 30.95%;
     top: 38.06%;
     bottom: 11.7%;
@@ -138,7 +144,7 @@ transform: rotate(-50deg);
 }
 .nav-img5{
     position: absolute;
-    left: 86.60%;
+    left: 85.60%;
     right: 43.84%;
     top: 62.80%;
     bottom: 12.5%;
@@ -158,14 +164,14 @@ transform: rotate(-50deg);
     padding: 25px 0px;
     gap: 100px;
     width: 100px;
-    height: 950px;
+    height: 850px;
     background: #2E333A;
     box-shadow: -6.22302px -6.22302px 18.6691px #3B4451, 6.22302px 6.22302px 18.6691px #000000;
     border-radius: 0px 25px 25px 0px;    
     flex: none;
     order: 0;
     flex-grow: 0;
-    position: relative;
+    position: absolute;
     top: 150px;
     left: 0px;
 }
@@ -174,7 +180,7 @@ transform: rotate(-50deg);
     height: 106px;
     position: absolute;
     left: -3.0%;
-    top: 1.0%;
+    top: .30%;
  }
 .side-img2{
     width: 106px;
@@ -188,7 +194,7 @@ transform: rotate(-50deg);
     height: 66px;
     position: absolute;
     left: 20.0%;
-    top: 22.0%;
+    top: 22.20%;
 }
 .side-img4{
     width: 106px;
@@ -250,8 +256,8 @@ flex: none;
 order: 0;
 flex-grow: 0;
 position: absolute;
-top: 180px;
-left: 230px;
+top: 155px;
+left: 210px;
 color: #FFFFFF;
 }
 .box-main .text1{
@@ -486,8 +492,8 @@ top: 54.0%;
     order: 0;
     flex-grow: 0;
     position: absolute;
-    top: 185px;
-    left: 600px;
+    top: 165px;
+    left: 580px;
 }
 .card-1 .card-img1{
 display: flex;
@@ -598,8 +604,8 @@ flex-grow: 0;
     order: 0;
     flex-grow: 0;
     position: absolute;
-    top: 185px;
-    left: 850px;
+    top: 165px;
+    left: 830px;
 }
 .card-2 .card-img2{
     display: flex;
@@ -713,8 +719,8 @@ flex-grow: 0;
     order: 0;
     flex-grow: 0;
     position: absolute;
-    top: 185px;
-    left: 1100px;
+    top: 165px;
+    left: 1080px;
     }
     .card-3 .card-img3{
         display: flex;
@@ -828,8 +834,8 @@ flex-grow: 0;
     order: 0;
     flex-grow: 0;
     position: absolute;
-    top: 405px;
-    left: 600px;
+    top: 380px;
+    left: 580px;
 }
 
 .card-4 .card-img4{
@@ -944,8 +950,8 @@ flex-grow: 0;
     order: 0;
     flex-grow: 0;
     position: absolute;
-    top: 405px;
-    left: 850px;
+    top: 380px;
+    left: 830px;
 }
 
 .card-5 .card-img5{
@@ -1060,8 +1066,8 @@ flex-grow: 0;
         order: 0;
         flex-grow: 0;
         position: absolute;
-        top: 405px;
-        left: 1100px;
+        top: 380px;
+        left: 1080px;
         }
 .card-6 .card-img6{
     display: flex;
@@ -1179,7 +1185,7 @@ flex-grow: 0;
     flex-grow: 0;
     position: absolute;
     left: 160px;
-    top: 680px;
+    top: 600px;
 }
 .container-card1 .text1{
     width: 255px;
@@ -1892,7 +1898,7 @@ left: 70.60%;
     flex-grow: 0;
     position: absolute;
     left: 560px;
-    top: 680px;
+    top: 600px;
 }
 .container-card2 .text1{
     width: 255px;
@@ -2562,7 +2568,7 @@ top: 76.80%;
     flex-grow: 0;
     position: absolute;
     left: 960px;
-    top: 680px;
+    top: 600px;
 }
 .container-card3 .text1{
     width: 255px;
@@ -3210,4 +3216,235 @@ position: absolute;
 bottom: 0.80%;
 left: 65.00%;
 }
-    
+
+/*responsive section*/
+
+@media screen and (max-width: 1200px){
+    .navbar{
+        min-height: 40px;
+        position: fixed;
+        z-index: 3;
+    }
+    .nav_search-opt{
+        position: absolute;
+        top: 30px;
+        left: 300px;
+    }
+    .right-content{
+        position: absolute;
+        top: 5px;
+        right:70px;
+    }
+    .box-main{
+        position: absolute;
+        top: 280px;
+        left: 220px;
+
+    }
+    .card-1{
+        position: absolute;
+        left: 580px;
+        top: 200px;
+    }
+    .card-2{
+        position: absolute;
+        left: 830px;
+        top: 200px;
+    }
+    .card-3{
+        position: absolute;
+        top: 560px;
+        left: 580px;
+    }
+ 
+    .card-6{
+        position: absolute;
+        top:560px ;
+        left:830px ;
+    }
+    .container-card1{
+        position: absolute;
+        top: 800px;
+        left: 100px;
+    }
+    .container-card2{
+        position: absolute;
+        top: 800px ;
+        left:460px ;
+    }
+    .container-card3{
+        position: absolute;
+        top:800px ;
+        left: 820px ;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .nav_search-opt{
+        display: none;
+    }
+    .box-main{
+        position: absolute;
+        top: 180px;
+        left: 220px;
+    }
+    .card-1{
+        position: absolute;
+        left: 600px;
+        top: 200px;
+    }
+    .card-2{
+        position: absolute;
+        top:400px ;
+        left:600px ;
+    }
+    .card-3{
+        position: absolute;
+        top:610px ;
+        left:310px ;
+    }    
+    .card-4{
+        position: absolute;
+        top:610px ;
+        left:600px ;
+    }
+    .card-5{
+        position: absolute;
+        top:810px ;
+        left:310px ;
+    }
+    .card-6{
+        position: absolute;
+        top:810px ;
+        left:600px ;
+    }
+    .container-card1{
+        position: absolute;
+        top: 1020px;
+        left: 250px;
+    }
+    .container-card2{
+        position: absolute;
+        top: 1570px ;
+        left:30px ;
+    }
+    .container-card3{
+        position: absolute;
+        top:1570px ;
+        left: 450px ;
+    }
+}
+@media screen and (max-width: 750px) {
+
+    .box-main{
+        position: absolute;
+        top: 150px;
+        left: 200px;
+    } 
+    .card-1{
+        position: absolute;
+        top: 580px;
+        left: 150px;
+    }  
+    .card-2
+    {
+        position: absolute;
+        top: 580px;
+        left: 400px;
+    }
+    .card-3{
+        position: absolute;
+        top: 770px;
+        left: 150px;
+    }  
+    .card-4
+    {
+        position: absolute;
+        top: 770px;
+        left: 400px;
+    }
+    .card-5{
+        position: absolute;
+        top: 960px;
+        left: 150px;
+    }  
+    .card-6
+    {
+        position: absolute;
+        top: 960px;
+        left: 400px;
+    }
+
+    .container-card1{
+        position: absolute;
+        top: 1200px;
+        left: 190px;
+    }
+    .container-card2{
+        position: absolute;
+        top: 1750px;
+        left: 190px;
+    }
+    .container-card3{
+        position: absolute;
+        top: 2300px;
+        left: 190px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .box-main{
+        position: absolute;
+        top: 150px;
+        left: 100px;
+    }
+    .card-1{
+        position: absolute;
+        top: 580px;
+        left: 140px;
+    }  
+    .card-2
+    {
+        position: absolute;
+        top: 780px;
+        left: 140px;
+    }
+    .card-3{
+        position: absolute;
+        top: 980px;
+        left: 140px;
+    }  
+    .card-4
+    {
+        position: absolute;
+        top: 1180px;
+        left: 140px;
+    }
+    .card-5{
+        position: absolute;
+        top: 1380px;
+        left: 140px;
+    }  
+    .card-6
+    {
+        position: absolute;
+        top: 1580px;
+        left: 140px;
+    }
+
+    .container-card1{
+        position: absolute;
+        top: 1800px;
+        left: 20px;
+    }
+    .container-card2{
+        position: absolute;
+        top: 2350px;
+        left: 20px;
+    }
+    .container-card3{
+        position: absolute;
+        top: 2900px;
+        left: 20px;
+    }
+}  
