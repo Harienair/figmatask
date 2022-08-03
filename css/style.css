@@ -8,7 +8,7 @@ justify-content: center;
 align-items: center;
 padding: 15px 25px;
 position: absolute;
-width: 1280px;
+width: 100%;
 height: 105px;
 left: 0px;
 top: 0px;
@@ -16,7 +16,7 @@ background: #2E333A;
 box-shadow: -6.22302px -6.22302px 18.6691px #3B4451, 6.22302px 6.22302px 18.6691px #000000;
 position: fixed;
 z-index: 3;
-}
+} 
 .navbar-toggler{
     position: absolute;
     right: 100px;
@@ -136,7 +136,7 @@ transform: rotate(-50deg);
 }
 .nav-img4{
     position: absolute;
-    left: 85.9%;
+    left: 86.9%;
     right: 30.95%;
     top: 38.06%;
     bottom: 11.7%;
@@ -144,10 +144,10 @@ transform: rotate(-50deg);
 }
 .nav-img5{
     position: absolute;
-    left: 85.60%;
+    left: 86.40%;
     right: 43.84%;
-    top: 62.80%;
-    bottom: 12.5%;
+    top: 62.90%;
+    bottom: 12.2%;
     border: none; 
 }
 .user-img{
@@ -3219,7 +3219,7 @@ left: 65.00%;
 
 /*responsive section*/
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1350px){
     .navbar{
         min-height: 40px;
         position: fixed;
@@ -3234,6 +3234,22 @@ left: 65.00%;
         position: absolute;
         top: 5px;
         right:70px;
+    }
+    .nav-img4{
+        position: absolute;
+        left: -270.9%;
+        right: 210.95%;
+        top: 78.06%;
+        bottom: 14.7%;
+        border: none;  
+    }
+    .nav-img5{
+        position: absolute;
+        left: -280.9%;
+        right: 210.95%;
+        top: 138.90%;
+        bottom: 1.2%;
+        border: none; 
     }
     .box-main{
         position: absolute;
@@ -3265,22 +3281,25 @@ left: 65.00%;
     .container-card1{
         position: absolute;
         top: 800px;
-        left: 100px;
+        left: 400px;
     }
     .container-card2{
         position: absolute;
-        top: 800px ;
-        left:460px ;
+        top: 1350px ;
+        left:100px ;
     }
     .container-card3{
         position: absolute;
-        top:800px ;
-        left: 820px ;
+        top:1350px ;
+        left: 620px ;
     }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1100px){
     .nav_search-opt{
+        display: none;
+    }
+    .right-content{
         display: none;
     }
     .box-main{
@@ -3334,7 +3353,7 @@ left: 65.00%;
         left: 450px ;
     }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
 
     .box-main{
         position: absolute;
@@ -3391,7 +3410,121 @@ left: 65.00%;
         left: 190px;
     }
 }
+@media screen and (max-width: 700px) {
 
+    .box-main{
+        position: absolute;
+        top: 150px;
+        left: 150px;
+    } 
+    .card-1{
+        position: absolute;
+        top: 580px;
+        left: 110px;
+    }  
+    .card-2
+    {
+        position: absolute;
+        top: 580px;
+        left: 330px;
+    }
+    .card-3{
+        position: absolute;
+        top: 770px;
+        left: 110px;
+    }  
+    .card-4
+    {
+        position: absolute;
+        top: 770px;
+        left: 330px;
+    }
+    .card-5{
+        position: absolute;
+        top: 960px;
+        left: 110px;
+    }  
+    .card-6
+    {
+        position: absolute;
+        top: 960px;
+        left: 330px;
+    }
+
+    .container-card1{
+        position: absolute;
+        top: 1200px;
+        left: 150px;
+    }
+    .container-card2{
+        position: absolute;
+        top: 1750px;
+        left: 150px;
+    }
+    .container-card3{
+        position: absolute;
+        top: 2300px;
+        left: 150px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box-main{
+        position: absolute;
+        top: 150px;
+        left: 150px;
+        width: 300px;
+    } 
+    .card-1{
+        position: absolute;
+        top: 580px;
+        left: 150px;
+    }  
+    .card-2
+    {
+        position: absolute;
+        top: 780px;
+        left: 150px;
+    }
+    .card-3{
+        position: absolute;
+        top: 980px;
+        left: 150px;
+    }  
+    .card-4
+    {
+        position: absolute;
+        top: 1180px;
+        left: 150px;
+    }
+    .card-5{
+        position: absolute;
+        top: 1380px;
+        left: 150px;
+    }  
+    .card-6
+    {
+        position: absolute;
+        top: 1580px;
+        left: 150px;
+    }
+
+    .container-card1{
+        position: absolute;
+        top: 1800px;
+        left: 50px;
+    }
+    .container-card2{
+        position: absolute;
+        top: 2350px;
+        left: 50px;
+    }
+    .container-card3{
+        position: absolute;
+        top: 2900px; 
+        left: 50px;
+    }
+}   
 @media screen and (max-width: 400px) {
     .box-main{
         position: absolute;
@@ -3448,4 +3581,4 @@ left: 65.00%;
         top: 2900px; 
         left: 20px;
     }
-}    
+}   
