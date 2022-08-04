@@ -1060,9 +1060,37 @@ body{
     
     .logo_img1 {
         display:block;
-        height: 5rem;
+        height: 3.3rem;
+        width: 6.5rem;
+        margin-left: 0.8rem;
+    }
+    .search-opt {
+        display: flex;
         width: 8rem;
     }
+    .search_box{
+        display: flex;
+        width: 6rem;
+    }
+    .search_icon img{
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+    .user_container{
+        height: 3rem;
+        margin-right: 1rem;
+    }
+    .user_container .card_btn{
+        height: 3rem;
+        width: 3rem;
+        margin-right: .5rem;
+    }
+    .user_container .user_img{
+        height: 3rem;
+        width: 3rem;
+    }
+
+
  
     .navbar {
         position: fixed;
